@@ -26,6 +26,11 @@ public class HelloController {
     public String test3(){
         return "你好!master33";
     }
+    
+     @RequestMapping("/test4")
+    public String test4(){
+        return "你好!master44";
+    }
 
 
 
