@@ -32,4 +32,9 @@ public class HelloController {
     public String tsetBranch(){
         return "你好!tsetBranch--分支";
     }
+
+    @RequestMapping("/tsetBranch2")
+    public String tsetBranch2(){
+        return "你好!tsetBranch2--分支";
+    }
 }
