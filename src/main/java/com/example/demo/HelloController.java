@@ -59,7 +59,7 @@ public class HelloController {
 
     @RequestMapping("/tsetBranch88")
     public String tsetBranch88(){
-         return "你好!tsetBranch88--分支";
+        return "你好!tsetBranch88--分支";
     }
 
 }
