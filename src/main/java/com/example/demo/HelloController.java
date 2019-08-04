@@ -22,6 +22,12 @@ public class HelloController {
         return "你好!master22";
     }
 
+    @RequestMapping("/test3")
+    public String test3(){
+        return "你好!master33";
+    }
+
+
 
     @RequestMapping("/branch")
     public String branch(){
