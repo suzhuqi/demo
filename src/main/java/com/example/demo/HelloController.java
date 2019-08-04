@@ -16,4 +16,11 @@ public class HelloController {
     public String test(){
         return "你好!master";
     }
+
+    @RequestMapping("/branch")
+    public String branch(){
+        return "你好!suzhuqi--分支";
+    }
+
+
 }
