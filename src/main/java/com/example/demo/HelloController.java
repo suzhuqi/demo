@@ -32,8 +32,6 @@ public class HelloController {
         return "你好!master44";
     }
 
-
-
     @RequestMapping("/branch")
     public String branch(){
         return "你好!suzhuqi--分支";
