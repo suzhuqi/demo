@@ -28,5 +28,8 @@ public class HelloController {
         return "你好!suzhuqi--分支";
     }
 
-
+    @RequestMapping("/tsetBranch")
+    public String tsetBranch(){
+        return "你好!tsetBranch--分支";
+    }
 }
