@@ -11,4 +11,9 @@ public class HelloController {
     public String hello(){
         return "你好，SptingBootDemo!";
     }
+
+    @RequestMapping("/test")
+    public String test(){
+        return "你好!master";
+    }
 }
